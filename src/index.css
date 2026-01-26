@@ -1,0 +1,32 @@
+@import "tailwindcss";
+.form-select:focus,
+.form-control:focus {
+  border-color: #4A148C !important;
+  box-shadow: 0 0 0 0.2rem rgba(74, 20, 140, 0.25) !important;
+}
+
+.form-check-input:focus {
+  border-color: #4A148C !important;
+  box-shadow: 0 0 0 0.2rem rgba(111, 66, 193, 0.25) !important;
+}
+
+.form-check-input:checked {
+  background-color: #4A148C !important;
+  border-color: #4A148C !important;
+}
+
+.form-check-input[type="radio"] {
+  border-radius: 50%;
+}
+.btn {
+  background-color: #4A148C !important;
+  border-color: #4A148C !important;
+  color: white !important;
+  width: 150px;
+  margin-top: 20px;
+}
+.btn:hover {
+  background-color: #FFC107 !important; 
+  border-color: #FFC107 !important;
+  color: black !important;
+}
